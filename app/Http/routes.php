@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'SitesController@index');
+Route::get('/admin','Admin\IndexController@admin');
+Route::get('/index','Index\IndexController@index');
